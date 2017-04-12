@@ -1,0 +1,65 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{obsprop}[17/02/2015 cover sheet for observing proposal accompanying the module Extragalactic Astronomy]
+
+\usepackage{geometry}
+
+\geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=1in,
+ right=1in,
+ top=0.7in,
+ bottom=0.7in,
+ }
+
+
+\def\proptitle#1{\gdef\@proptitle{#1}}
+\def\abstract#1{\gdef\@abstract{#1}}
+\def\totaltime#1{\gdef\@totaltime{#1}}
+\def\filterbreakdown#1{\gdef\@filterbreakdown{#1}}
+
+
+\def\propintro{
+\null
+{\flushleft
+\begin{minipage}{0.15\textwidth}
+\includegraphics[width=\textwidth]{Sussex.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.42\textwidth}
+\centering
+\vspace{5truemm}
+Extragalactic Astronomy 2017\\[3ex]
+{\bf \large{Hubble Observing Proposal}}\\[1ex]
+\footnotesize{(weight: 50\% of coursework marks)}
+\end{minipage}
+\hfill
+\begin{minipage}{0.15\textwidth}
+\includegraphics[width=\textwidth]{STSci.png}
+\end{minipage}\\
+}
+\vspace{5truemm}
+\hrule\vspace{0.5mm}\hrule
+
+\begin{center}
+\Large\bf\@proptitle
+\end{center}
+
+\noindent
+\framebox(453,230)[tl]{
+\put(5,-12){\parbox[t]{155mm}{{\bf Abstract:} \@abstract}}
+}
+\newline \\[-1.7ex]
+\noindent
+\framebox(453,20)[l]{
+\put(5,-9){{\bf Total telescope time requested:}~\@totaltime}
+}
+\newline \\[-1.7ex]
+\begin{tabular}{|p{.15\textwidth}|p{.245\textwidth}|p{.25\textwidth}|p{.25\textwidth}|p{.25\textwidth}|}
+\hline
+{\bf band/filter} & {\bf no. of exposures} & {\bf length of individual exposure} &  {\bf total time (inc. overheads)}\\
+\hline
+\@filterbreakdown
+\hline
+\end{tabular}
+}

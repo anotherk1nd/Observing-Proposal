@@ -1,0 +1,71 @@
+\documentclass[11pt]{article}
+\usepackage{template}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\begin{document}
+
+%--------------------------------------------------------------------------
+% Title of your proposal
+%--------------------------------------------------------------------------
+\proptitle{Proposal Title}
+
+%--------------------------------------------------------------------------
+% Abstract (replace/add content)
+%--------------------------------------------------------------------------
+\abstract{max. 1500 characters. }
+
+%--------------------------------------------------------------------------
+% Time/Instrument summary (modify fields as required)
+%--------------------------------------------------------------------------
+\totaltime{0\,hr}
+
+%--------------------------------------------------------------------------
+% Summary of time requested for each SFC3 filter
+%--------------------------------------------------------------------------
+\filterbreakdown{
+{\it e.g.} & & &\\
+\hline
+$J_{f125w}$ & 2 & 10 minutes & 24 minutes \\
+\hline
+$H_{f160w}$ & 1 & 20 minutes & 22 minutes \\
+}
+
+%--------------------------------------------------------------------------
+% Display intro section (do not remove or edit this line)
+%--------------------------------------------------------------------------
+\propintro
+
+%--------------------------------------------------------------------------
+% Science justification (about 1 page)
+%--------------------------------------------------------------------------
+
+\clearpage
+
+\section{Science Motivation}
+
+Give some background on the topic in general and describe the main aims of your proposed observations. This is limited to one page and should include appropriate references.\\
+
+\noindent In doing so try to provide answers to the following:
+\begin{itemize}
+\item Which astrophysical questions will you be able to address with the requested data and how does this advance the field?
+\item Why is the sample/object you plan to observe particularly suitable for addressing these questions?
+\item Why are observations with the Hubble Space Telescope especially useful for addressing the key science questions you have identified?
+\end{itemize}
+
+\vfill \noindent {\bf References:} A. Fox et al. 2005, {\it Nature}, 444, 78; S. Nova \& B. L. Hole 1987, {\it The Astrophysical Journal}, 45, 8; T. Fringe et al. 2014, {\it Journal of Pure and Applied Nonsense}, 501, 999
+
+%--------------------------------------------------------------------------
+% Technical justification (about 1/2 page)
+%--------------------------------------------------------------------------
+
+\clearpage
+
+\section{Technical Justification}
+
+Motivate and describe your choice of instrument, observing strategy and observing time request. Don’t forget to add telescope overheads to the actual observing time. Explain what the expected brightness/flux of your sources is and what the significance level is, with which you are aiming to detect your targets (e.g. signal-to-noise ratio S/N=10). This can be as long as you need.
+
+
+\end{document}  
