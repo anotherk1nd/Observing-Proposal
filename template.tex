@@ -3,6 +3,8 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+\usepackage{biblatex}[backend=biber]
+\bibliography{bib}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
 \begin{document}
@@ -15,7 +17,7 @@
 %--------------------------------------------------------------------------
 % Abstract (replace/add content)
 %--------------------------------------------------------------------------
-\abstract{Disco }
+\abstract{}
 
 %--------------------------------------------------------------------------
 % Time/Instrument summary (modify fields as required)
@@ -43,6 +45,10 @@ $J_{f125w}$ & 101 & 52.5 seconds & 4.9 hours \\
 \clearpage
 
 \section{Science Motivation}
+Brown dwarfs are a relatively new addition to the known populations of stars, having first been theorised in 1963 by Shiv Kumar\cite{GBASRI}. Too small to experience enough pressure to produce energy via the p-p chain, initial fusion of deuterium does occur until depletion, whereupon gravitational collapse continues until reaching equilibrium with electron degeneracy pressure. These objects then continue to radiate the initial kinetic energy of cloud collapse slowly, glowing for 10's of billions of years. As such, although the extended lifetimes may favour life formation, the vastly reduced luminosity renders the habitable zone much closer to the stars, and high levels of radiation produced may inhibit compex life. Nonetheless, these are inherently interesting objects that though previously difficult to observe due to low luminosities are now being studied more intensively. This study would focus on Y-type ultra-cool dwarf stars, of which very few have been found due to extremely low luminosities. Having first been observed only in 2011 \cite{Tinney2014}, only 20 have been found in the local neighbourhood\cite{Leggett2016}(within $\approx$ 75pc).
+Observing in the $J_{125w}$ band was chosen based on proposals to define the T/Y-type distinction as the ammonia absorption feature at $1.55\mu$m \cite{Leggett2009}. This was based on a small number of observations and the proposed study would investigate this claim further. It would also correlate with \cite{Tinney2014} who found success using this filter. Furtermore, whilst modelling of the interior structures has found some success, their atmospheres have been more difficult to emulate, and direct observations would constrain the chemical makeup and possibly \\
+
+Looking within the local area of 100pc would cater for the low luminosity of these objects.
 
 Give some background on the topic in general and describe the main aims of your proposed observations. This is limited to one page and should include appropriate references.\\
 

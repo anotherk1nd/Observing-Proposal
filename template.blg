@@ -1,5 +1,18 @@
-[1] Config.pm:354> INFO - This is Biber 2.7
-[3] Config.pm:357> INFO - Logfile is 'template.blg'
-[81] biber-MSWIN64:303> INFO - === 
-[983] Utils.pm:180> ERROR - Cannot find control file 'template.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[984] Biber.pm:113> INFO - ERRORS: 1
+[0] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'template.blg'
+[100] biber:287> INFO - === Mon Apr 17, 2017, 18:06:42
+[231] Biber.pm:348> INFO - Reading 'template.bcf'
+[438] Biber.pm:742> INFO - Found 4 citekeys in bib section 0
+[446] Biber.pm:3151> INFO - Processing section 0
+[491] Biber.pm:3308> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[524] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[552] bibtex.pm:974> INFO - Found BibTeX data source 'bib.bib'
+[564] Utils.pm:147> WARN - Datamodel: Entry 'GBASRI' (bib.bib): Invalid format '17/4/17' of date field 'date' - ignoring
+[738] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[739] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[739] Biber.pm:3028> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'en-US'
+[739] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[790] bbl.pm:519> INFO - Writing 'template.bbl' with encoding 'ascii'
+[915] Utils.pm:147> WARN - The entry 'Leggett2009' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[970] bbl.pm:615> INFO - Output to template.bbl
+[971] Biber.pm:109> INFO - WARNINGS: 2

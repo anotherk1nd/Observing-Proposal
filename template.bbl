@@ -1,0 +1,314 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{GBASRI}{online}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labeltitlesource}{title}
+      \field{title}{Brown Dwarf}
+      \verb{url}
+      \verb https://www.britannica.com/topic/brown-dwarf#ref1231775
+      \endverb
+      \warn{\item Datamodel: Entry 'GBASRI' (bib.bib): Invalid format '17/4/17' of date field 'date' - ignoring}
+    \endentry
+    \entry{Leggett2016}{article}{}
+      \name{author}{13}{}{%
+        {{hash=2da014cd053a1143ba304f1c28821072}{%
+           family={Leggett},
+           family_i={L\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           given_i={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b5d0a13988b3c2a2aa46500f9f5f870e}{%
+           family={Cushing},
+           family_i={C\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           given_i={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6035e5be530383dfe0a1dc7b2da9b3a4}{%
+           family={Hardegree-Ullman},
+           family_i={H\bibinithyphendelim U\bibinitperiod},
+           given={Kevin\bibnamedelima K.},
+           given_i={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f062ace24bf6ec65a064817b1ccfc7d4}{%
+           family={Trucks},
+           family_i={T\bibinitperiod},
+           given={Jesica\bibnamedelima L.},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8efef38058a86d88d4df0a53b5094e21}{%
+           family={Marley},
+           family_i={M\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0052f73bcbfddb04c462d4865fb7ee75}{%
+           family={Morley},
+           family_i={M\bibinitperiod},
+           given={Caroline\bibnamedelima V.},
+           given_i={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=25a7ef1eb0064aaa5817c113fe7b8106}{%
+           family={Saumon},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=13d68ffd31c0a3185b1ddcf4317fe0b7}{%
+           family={Carey},
+           family_i={C\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8421c62543aca59bf6db48650281923a}{%
+           family={Fortney},
+           family_i={F\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5e332289b82edf53d29743a77e651ebe}{%
+           family={Gelino},
+           family_i={G\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           given_i={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=84878d8881aa00fb4dddb0442f3c64f8}{%
+           family={Gizis},
+           family_i={G\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           given_i={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6190442bfa0889c40000020cd52777b}{%
+           family={Kirkpatrick},
+           family_i={K\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=68ca130819baafb6cd9461d8b78bca3e}{%
+           family={Mace},
+           family_i={M\bibinitperiod},
+           given={G.\bibnamedelimi N.},
+           given_i={G\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a29a611a02f2c76d3d1ef3616a7bd4a9}
+      \strng{fullhash}{db4f9a22797b9a0847838274960eb05e}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have monitored photometrically the Y0 brown dwarf WISEP J173835.52+273258.9 (W1738) at both near- and mid-infrared wavelengths. This {\~{}}1 Gyr-old 400K dwarf is at a distance of 8pc and has a mass around 5 M{\_}Jupiter. We observed W1738 using two near-infrared filters at lambda{\~{}}1um, Y and J, on Gemini observatory, and two mid-infrared filters at lambda{\~{}}4um, [3.6] and [4.5], on the Spitzer observatory. Twenty-four hours were spent on the source by Spitzer on each of June 30 and October 30 2013 UT. Between these observations, around 5 hours were spent on the source by Gemini on each of July 17 and August 23 2013 UT. The mid-infrared light curves show significant evolution between the two observations separated by four months. We find that a double sinusoid can be fit to the [4.5] data, where one sinusoid has a period of 6.0 +/- 0.1 hours and the other a period of 3.0 +/- 0.1 hours. The near-infrared observations suggest variability with a {\~{}}3.0 hour period, although only at a {<}{\~{}}2 sigma confidence level. We interpret our results as showing that the Y dwarf has a 6.0 +/- 0.1 hour rotation period, with one or more large-scale surface features being the source of variability. The peak-to-peak amplitude of the light curve at [4.5] is 3{\%}. The amplitude of the near-infrared variability, if real, may be as high as 5 to 30{\%}. Intriguingly, this size of variability and the wavelength dependence can be reproduced by atmospheric models that include patchy KCl and Na{\_}2S clouds and associated small changes in surface temperature. The small number of large features, and the timescale for evolution of the features, is very similar to what is seen in the atmospheres of the solar system gas giants.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{15384357}
+      \field{title}{{Observed Variability at 1um and 4um in the Y0 Brown Dwarf WISEP J173835.52+273258.9}}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 26}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.3847/0004-637X/830/2/141
+      \endverb
+      \verb{eprint}
+      \verb 1607.07888
+      \endverb
+      \verb{file}
+      \verb :home/franky/Link to Documents/Term 2/Extragalactic/Assessed/Observing Proposal/Related Papers/1607.07888.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1607.07888
+      \endverb
+    \endentry
+    \entry{Leggett2009}{article}{}
+      \name{author}{19}{}{%
+        {{hash=2da014cd053a1143ba304f1c28821072}{%
+           family={Leggett},
+           family_i={L\bibinitperiod},
+           given={S.\bibnamedelimi K.},
+           given_i={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b5d0a13988b3c2a2aa46500f9f5f870e}{%
+           family={Cushing},
+           family_i={C\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           given_i={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=25a7ef1eb0064aaa5817c113fe7b8106}{%
+           family={Saumon},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=8efef38058a86d88d4df0a53b5094e21}{%
+           family={Marley},
+           family_i={M\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9c11ebdb9a7b92a830d8706816bb0e59}{%
+           family={Roellig},
+           family_i={R\bibinitperiod},
+           given={T.\bibnamedelimi L.},
+           given_i={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=3c04da975d5b4fbbdf4400a3dd0d662b}{%
+           family={Warren},
+           family_i={W\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d5a308ecbb3b21ba7c6afeb670fe5466}{%
+           family={Burningham},
+           family_i={B\bibinitperiod},
+           given={Ben},
+           given_i={B\bibinitperiod}}}%
+        {{hash=f7a47bebd960e72eafbbb8159d84aaae}{%
+           family={Jones},
+           family_i={J\bibinitperiod},
+           given={H.\bibnamedelimi R.\bibnamedelimi A.},
+           given_i={H\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f6190442bfa0889c40000020cd52777b}{%
+           family={Kirkpatrick},
+           family_i={K\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c91c11472c3cc9449e6c39b63723a091}{%
+           family={Lodieu},
+           family_i={L\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{hash=cb20afa163bbc8ae03187b84df5418f7}{%
+           family={Lucas},
+           family_i={L\bibinitperiod},
+           given={P.\bibnamedelimi W.},
+           given_i={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=397127720337a5da5294d8414ab72f92}{%
+           family={Mainzer},
+           family_i={M\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=11c54fdb3143f80e26b8bd580d67efd0}{%
+           family={Mart\'\i{}n},
+           family_i={M\bibinitperiod},
+           given={E.\bibnamedelimi L.},
+           given_i={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=39adaa045c71b51539f75a89c5405f84}{%
+           family={McCaughrean},
+           family_i={M\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9c1f7773cc0c0e56eec9efeb946e2b53}{%
+           family={Pinfield},
+           family_i={P\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bfcca2f770dcc4daab9f60e54461093a}{%
+           family={Sloan},
+           family_i={S\bibinitperiod},
+           given={G.\bibnamedelimi C.},
+           given_i={G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b3ab12fce40aa0ae1f8738cac40e207f}{%
+           family={Smart},
+           family_i={S\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           given_i={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=94bb56401c749776251d7b3b9f73b181}{%
+           family={Tamura},
+           family_i={T\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{hash=467be563d9be1f895ed7a486208b058d}{%
+           family={{Van\bibnamedelimb Cleve}},
+           family_i={V\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a29a611a02f2c76d3d1ef3616a7bd4a9}
+      \strng{fullhash}{0bed489928ae7b0f78d3480b2db53150}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-637X}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{2}
+      \field{title}{{the Physical Properties of Four \x{fffd}\x{fffd}\x{fffd}600 K T Dwarfs}}
+      \field{volume}{695}
+      \field{year}{2009}
+      \field{pages}{1517\bibrangedash 1526}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1088/0004-637X/695/2/1517
+      \endverb
+      \verb{file}
+      \verb :home/franky/Link to Documents/Term 2/Extragalactic/Assessed/Observing Proposal/Related Papers/Leggett{\_}2009{\_}ApJ{\_}695{\_}1517.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0004-637X/695/i=2/a=1517?key=crossref.86629096f77ffc1b474e3a6a74b745f4
+      \endverb
+      \keyw{005206,011401,113005,2,2448279,2mass j09393548,3,45,7,77,82,atmospheres,brown dwarfs,cfbd j005910,individual,low-mass,stars,ulas j003402,ulas j133553}
+    \endentry
+    \entry{Tinney2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=c94dd3348432af2e7543ed87c5b9a21b}{%
+           family={Tinney},
+           family_i={T\bibinitperiod},
+           given={C\bibnamedelima G},
+           given_i={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=81bef1fc18f5d8538c5b04273a638af3}{%
+           family={Faherty},
+           family_i={F\bibinitperiod},
+           given={Jacqueline\bibnamedelima K},
+           given_i={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=618120df67c8486caf38ee03a395fa75}{%
+           family={Kirkpatrick},
+           family_i={K\bibinitperiod},
+           given={J\bibnamedelima Davy},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8a14189060998c88aff327ffdeacb599}{%
+           family={Cushing},
+           family_i={C\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+        {{hash=5fe8dd44365517e9db1305e0369235ae}{%
+           family={Morley},
+           family_i={M\bibinitperiod},
+           given={Caroline\bibnamedelima V},
+           given_i={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=c50eb4d2a8eeb8d447b557419e3da45a}{%
+           family={Wright},
+           family_i={W\bibinitperiod},
+           given={Edward\bibnamedelima L},
+           given_i={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2eba4bfdd24c25551ea87c4ec8dcbaaf}
+      \strng{fullhash}{1c054a7daeb2f09708b671ca55cc05c5}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{1}
+      \field{title}{{the Luminosities of the Coldest Brown Dwarfs}}
+      \field{volume}{796}
+      \field{year}{2014}
+      \field{pages}{39}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/796/1/39
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1410.0746v1
+      \endverb
+      \verb{file}
+      \verb :home/franky/Desktop/Link to Term 2/Extragalactic/Assessed/Observing Proposal/Related Papers/1410.0746.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0004-637X/796/i=1/a=39?key=crossref.bfa51b71ced38179214778aad7db3847
+      \endverb
+      \keyw{brown dwarfs,color figures,distances,online-only material,parallaxes,planetary systems,stars}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
