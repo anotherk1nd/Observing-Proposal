@@ -45,7 +45,7 @@ $J_{f125w}$ & 101 & 52.5 seconds & 4.9 hours \\
 \clearpage
 
 \section{Science Motivation}
-Brown dwarfs are a relatively new addition to the known populations of stars, having first been theorised in 1963 by Shiv Kumar\cite{GBASRI}. Too small to experience enough pressure to produce energy via the p-p chain, initial fusion of deuterium does occur until depletion, whereupon gravitational collapse continues until reaching equilibrium with electron degeneracy pressure. These objects then continue to radiate the initial kinetic energy of cloud collapse slowly, glowing for 10's of billions of years\cite{Adams2005}. As such, although the extended lifetimes may favour life formation, the vastly reduced luminosity renders the habitable zone much closer to the stars, and high levels of radiation produced may inhibit compex life. Nonetheless, these are inherently interesting objects that though previously difficult to observe due to low luminosities are now being studied more intensively. This study would focus on Y-type ultra-cool dwarf stars with $250K \lesssim T \lesssim 500K $, of which very few have been found due to their extremely low luminosities. Having first been observed only in 2011 \cite{Tinney2014}, only 20 have been found in the local neighbourhood\cite{Leggett2016}(within $\approx$ 75pc). Observing in the $J_{125w}$ band was chosen based on proposals to define the T/Y-type distinction as the ammonia absorption feature at $1.55\mu$m\cite{Leggett2009}. This was based on a small number of observations and the proposed study would investigate this claim further. It would also correlate with Tinney et. al. \cite{Tinney2014} who found success using this filter. Furthermore, whilst modelling of the interior structures Tinney found useful results, their atmospheres have been more difficult to emulate, and direct observations would constrain the chemical makeup and atmospheric opacity.\\
+Brown dwarfs are a relatively new addition to the known populations of stars, having first been theorised in 1963 by Shiv Kumar\cite{GBASRI}. Too small to experience enough pressure to produce energy via the p-p chain, initial fusion of deuterium does occur until depletion, whereupon gravitational collapse continues until reaching equilibrium with electron degeneracy pressure. These objects then continue to radiate the initial kinetic energy of cloud collapse slowly, glowing for 10's of billions of years\cite{Adams2005}. As such, although the extended lifetimes may favour life formation, the vastly reduced luminosity renders the habitable zone much closer to the stars, and high levels of radiation produced may inhibit compex life. Nonetheless, these are inherently interesting objects that though previously difficult to observe due to low luminosities are now being studied more intensively. This study would focus on Y-type ultra-cool dwarf stars with $250K \lesssim T \lesssim 500K $, of which very few have been found due to their extremely low luminosities. Having first been observed only in 2011 \cite{Tinney2014}, only 20 have been found in the local neighbourhood\cite{Leggett2016}(within $\approx$ 75pc). Observing in the $J_{125w}$ band was chosen based on proposals to define the T/Y-type distinction as the ammonia absorption feature at $1.55\mu$m\cite{Leggett2009}. This was based on a small number of observations and the proposed study would investigate this claim further. It would also correlate with Tinney et. al. \cite{Tinney2014} who found success using this filter. Furthermore, whilst modelling of the interior structures Tinney found useful results, their atmospheres have been more difficult to emulate, and direct observations would constrain the chemical makeup and atmospheric opacity.\newline
 The use of Hubble would support comprehensive ground based observations that were used by Robert et al. \cite{Robert2016} to find similar Ultra Cool Dwarfs (UCD's) using the CPAPIR at the Observatoire du Mont-MÈgantic (OMM) 1.6 m telescope. Although this survey was successful in identifying a range of interesting UCD's, no Y-types were observed. Although care was taken to account for atmospheric effects, observing such cool faint stars would be best served by escaping the atmosphere altogether and utilising Hubble's privileged position. This is even more important due to the reliance on the ammonia absorption feature: used in copiously in agriculture, its presence in the upper troposphere has been detected\cite{greiciust2017}. Combined with the low luminosity, it is imperative that the maximum flux be measured to ensure a detailed survey can be conducted. Looking within the local area of 100pc would also cater for the low luminosity of these objects, and would enable a detailed map of the nearby region of these faint, substellar objects, and could even lead to discoveries in the local area. Furthermore, although it has been suggested that brown dwarfs as a component of MAssive Compact Halo Objects (MACHOS) can not make up the bulk of dark matter observed in the universe \cite{DM2011}, this survey would provide more experimental evidence to support this.
 
 Give some background on the topic in general and describe the main aims of your proposed observations. This is limited to one page and should include appropriate references.\\
@@ -64,7 +64,39 @@ Give some background on the topic in general and describe the main aims of your 
 \clearpage
 \section{Technical Justification}
 
-Motivate and describe your choice of instrument, observing strategy and observing time request. Don’t forget to add telescope overheads to the actual observing time. Explain what the expected brightness/flux of your sources is and what the significance level is, with which you are aiming to detect your targets (e.g. signal-to-noise ratio S/N=10). This can be as long as you need.
-
+Motivate and describe your choice of instrument, observing strategy and observing time request. Don’t forget to add telescope overheads to the actual observing time. Explain what the expected brightness/flux of your sources is and what the significance level is, with which you are aiming to detect your targets (e.g. signal-to-noise ratio S/N=10). This can be as long as you need.\\
+\linebreak
+\noindent The aim is to identify 100 Y-type brown. Given the estimated number density, $\rho \sim 7.5pc^{-3}$, the number of pointings can be calculated by determining the volume of space observed with each individual pointing, given the intended survey depth of 100pc. Assuming the IR detector is rectangular, the observed space forms a rectangular based pyramid with sides of the rectangle given by:
+\begin{equation}
+a = r \times \theta_{1}
+\end{equation}
+\begin{equation}
+b = r \times \theta_{2}
+\end{equation}
+where $\theta_{1}=135"$ and $\theta_{2}=127"$ and r is the 100pc limit. The intention is to detect brown dwarfs reliably to 100pc, and so the exposure times will be based on the flux expected from objects at this distance. Therefore, although some additional exposure time could be made to ensure all objects at the 100pc limit are observed, the S/N ratio should ensure this, and more objects with lower fluxes will be identified at distances much less than the maximum.\\
+The volume is given by a basic pyramid:
+\begin{equation}
+V=\frac{1}{3}\times B \times h
+\end{equation}
+where B is the pyramid base area and h is the height from base to apex, and is equal to r here. Therefore: 
+\begin{equation}
+V = \frac{1}{3} \times a \times b \times h
+\end{equation}
+\begin{equation}
+V = \frac{1}{3} \times r^{3} \times \theta_{1}  \times \theta_{2} = 0.13pc^{3}
+\end{equation}
+The number of Brown Dwarfs detected in each pointing is therefore given by:
+\begin{equation}
+N = \rho \times V = 7.5pc^{-3} \times 0.13pc^{3} = 0.99
+\end{equation}
+The total number of pointings is therefore given by:
+\begin{equation}
+\frac{100}{0.9}=101
+\end{equation}
+To find the exposure time required, the flux of objects at the 100pc limit must be determined. Assuming isotropic spherical irradiance:
+\begin{equation}
+F = \frac{L}{4\pi r^{2}}
+\end{equation}
+Since  the given luminosity 
 
 \end{document}  
