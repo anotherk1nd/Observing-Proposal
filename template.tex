@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
-\usepackage{biblatex}[backend=biber]
+\usepackage[backend=biber,sorting=none]{biblatex}
 \bibliography{bib}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -45,9 +45,8 @@ $J_{f125w}$ & 101 & 52.5 seconds & 4.9 hours \\
 \clearpage
 
 \section{Science Motivation}
-Brown dwarfs are a relatively new addition to the known populations of stars, having first been theorised in 1963 by Shiv Kumar\cite{GBASRI}. Too small to experience enough pressure to produce energy via the p-p chain, initial fusion of deuterium does occur until depletion, whereupon gravitational collapse continues until reaching equilibrium with electron degeneracy pressure. These objects then continue to radiate the initial kinetic energy of cloud collapse slowly, glowing for 10's of billions of years\cite{Adams2005}. As such, although the extended lifetimes may favour life formation, the vastly reduced luminosity renders the habitable zone much closer to the stars, and high levels of radiation produced may inhibit compex life. Nonetheless, these are inherently interesting objects that though previously difficult to observe due to low luminosities are now being studied more intensively. This study would focus on Y-type ultra-cool dwarf stars, of which very few have been found due to their extremely low luminosities . Having first been observed only in 2011 \cite{Tinney2014}, only 20 have been found in the local neighbourhood\cite{Leggett2016}(within $\approx$ 75pc). Observing in the $J_{125w}$ band was chosen based on proposals to define the T/Y-type distinction as the ammonia absorption feature at $1.55\mu$m\cite{Leggett2009}. This was based on a small number of observations and the proposed study would investigate this claim further. It would also correlate with Tinney et. al. \cite{Tinney2014} who found success using this filter. Furthermore, whilst modelling of the interior structures Tinney found useful results, their atmospheres have been more difficult to emulate, and direct observations would constrain the chemical makeup and atmospheric opacity.\\
-The use of Hubble would support comprehensive ground based observations that were used by Robert et al. \cite{Robert2016} to find similar Ultra Cool Dwarfs (UCD's) using the CPAPIR at the Observatoire du Mont-MÈgantic (OMM) 1.6 m telescope. Although this survey was successful in identifying a range of interesting UCD's, no Y-types were observerd. Although care was taken to account for atmospheric effects, observing such cool faint stars would be best served by escaping the atmosphere altogether and utilising Hubble's privileged position.
-Looking within the local area of 100pc would cater for the low luminosity of these objects.
+Brown dwarfs are a relatively new addition to the known populations of stars, having first been theorised in 1963 by Shiv Kumar\cite{GBASRI}. Too small to experience enough pressure to produce energy via the p-p chain, initial fusion of deuterium does occur until depletion, whereupon gravitational collapse continues until reaching equilibrium with electron degeneracy pressure. These objects then continue to radiate the initial kinetic energy of cloud collapse slowly, glowing for 10's of billions of years\cite{Adams2005}. As such, although the extended lifetimes may favour life formation, the vastly reduced luminosity renders the habitable zone much closer to the stars, and high levels of radiation produced may inhibit compex life. Nonetheless, these are inherently interesting objects that though previously difficult to observe due to low luminosities are now being studied more intensively. This study would focus on Y-type ultra-cool dwarf stars with $250K \lesssim T \lesssim 500K $, of which very few have been found due to their extremely low luminosities. Having first been observed only in 2011 \cite{Tinney2014}, only 20 have been found in the local neighbourhood\cite{Leggett2016}(within $\approx$ 75pc). Observing in the $J_{125w}$ band was chosen based on proposals to define the T/Y-type distinction as the ammonia absorption feature at $1.55\mu$m\cite{Leggett2009}. This was based on a small number of observations and the proposed study would investigate this claim further. It would also correlate with Tinney et. al. \cite{Tinney2014} who found success using this filter. Furthermore, whilst modelling of the interior structures Tinney found useful results, their atmospheres have been more difficult to emulate, and direct observations would constrain the chemical makeup and atmospheric opacity.\\
+The use of Hubble would support comprehensive ground based observations that were used by Robert et al. \cite{Robert2016} to find similar Ultra Cool Dwarfs (UCD's) using the CPAPIR at the Observatoire du Mont-MÈgantic (OMM) 1.6 m telescope. Although this survey was successful in identifying a range of interesting UCD's, no Y-types were observed. Although care was taken to account for atmospheric effects, observing such cool faint stars would be best served by escaping the atmosphere altogether and utilising Hubble's privileged position. This is even more important due to the reliance on the ammonia absorption feature: used in copiously in agriculture, its presence in the upper troposphere has been detected\cite{greiciust2017}. Combined with the low luminosity, it is imperative that the maximum flux be measured to ensure a detailed survey can be conducted. Looking within the local area of 100pc would also cater for the low luminosity of these objects, and would enable a detailed map of the nearby region of these faint, substellar objects, and could even lead to discoveries in the local area. Furthermore, although it has been suggested that brown dwarfs as a component of MAssive Compact Halo Objects (MACHOS) can not make up the bulk of dark matter observed in the universe \cite{DM2011}, this survey would provide more experimental evidence to support this.
 
 Give some background on the topic in general and describe the main aims of your proposed observations. This is limited to one page and should include appropriate references.\\
 
@@ -57,15 +56,12 @@ Give some background on the topic in general and describe the main aims of your 
 \item Why is the sample/object you plan to observe particularly suitable for addressing these questions?
 \item Why are observations with the Hubble Space Telescope especially useful for addressing the key science questions you have identified?
 \end{itemize}
-
-\vfill \noindent {\bf References:} A. Fox et al. 2005, {\it Nature}, 444, 78; S. Nova \& B. L. Hole 1987, {\it The Astrophysical Journal}, 45, 8; T. Fringe et al. 2014, {\it Journal of Pure and Applied Nonsense}, 501, 999
-
+\clearpage
+\printbibliography
 %--------------------------------------------------------------------------
 % Technical justification (about 1/2 page)
 %--------------------------------------------------------------------------
-
 \clearpage
-
 \section{Technical Justification}
 
 Motivate and describe your choice of instrument, observing strategy and observing time request. Don’t forget to add telescope overheads to the actual observing time. Explain what the expected brightness/flux of your sources is and what the significance level is, with which you are aiming to detect your targets (e.g. signal-to-noise ratio S/N=10). This can be as long as you need.

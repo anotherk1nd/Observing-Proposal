@@ -18,16 +18,115 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global}
+  \sortlist[entry]{none/global}
     \entry{GBASRI}{online}{}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labeltitlesource}{title}
+      \field{month}{04}
       \field{title}{Brown Dwarf}
+      \field{year}{2017}
       \verb{url}
       \verb https://www.britannica.com/topic/brown-dwarf#ref1231775
       \endverb
-      \warn{\item Datamodel: Entry 'GBASRI' (bib.bib): Invalid format '17/4/17' of date field 'date' - ignoring}
+    \endentry
+    \entry{Adams2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a731eba8c46bff02fa5d036d754700f8}{%
+           family={{Adams}},
+           family_i={A\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           given_i={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=26de7b686125397b8bd81ae33a5a6aaa}{%
+           family={{Bodenheimer}},
+           family_i={B\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{hash=2b99fa5049ae4280e558341a0da9b22f}{%
+           family={{Laughlin}},
+           family_i={L\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{151def42d4cd3e86c470efada66e7ecf}
+      \strng{fullhash}{151def42d4cd3e86c470efada66e7ecf}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomische Nachrichten}
+      \field{month}{12}
+      \field{title}{{M dwarfs: planet formation and long term evolution}}
+      \field{volume}{326}
+      \field{year}{2005}
+      \field{pages}{913\bibrangedash 919}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/asna.200510440
+      \endverb
+      \keyw{planets: formation,protoplanetary disks,stars: formation,evolution,stars: late-type (M dwarfs,red giants)}
+    \endentry
+    \entry{Tinney2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=c94dd3348432af2e7543ed87c5b9a21b}{%
+           family={Tinney},
+           family_i={T\bibinitperiod},
+           given={C\bibnamedelima G},
+           given_i={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=81bef1fc18f5d8538c5b04273a638af3}{%
+           family={Faherty},
+           family_i={F\bibinitperiod},
+           given={Jacqueline\bibnamedelima K},
+           given_i={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=618120df67c8486caf38ee03a395fa75}{%
+           family={Kirkpatrick},
+           family_i={K\bibinitperiod},
+           given={J\bibnamedelima Davy},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8a14189060998c88aff327ffdeacb599}{%
+           family={Cushing},
+           family_i={C\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+        {{hash=5fe8dd44365517e9db1305e0369235ae}{%
+           family={Morley},
+           family_i={M\bibinitperiod},
+           given={Caroline\bibnamedelima V},
+           given_i={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=c50eb4d2a8eeb8d447b557419e3da45a}{%
+           family={Wright},
+           family_i={W\bibinitperiod},
+           given={Edward\bibnamedelima L},
+           given_i={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2eba4bfdd24c25551ea87c4ec8dcbaaf}
+      \strng{fullhash}{1c054a7daeb2f09708b671ca55cc05c5}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{1}
+      \field{title}{{the Luminosities of the Coldest Brown Dwarfs}}
+      \field{volume}{796}
+      \field{year}{2014}
+      \field{pages}{39}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/796/1/39
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1410.0746v1
+      \endverb
+      \verb{file}
+      \verb :home/franky/Desktop/Link to Term 2/Extragalactic/Assessed/Observing Proposal/Related Papers/1410.0746.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0004-637X/796/i=1/a=39?key=crossref.bfa51b71ced38179214778aad7db3847
+      \endverb
+      \keyw{brown dwarfs,color figures,distances,online-only material,parallaxes,planetary systems,stars}
     \endentry
     \entry{Leggett2016}{article}{}
       \name{author}{13}{}{%
@@ -99,8 +198,8 @@
       }
       \strng{namehash}{a29a611a02f2c76d3d1ef3616a7bd4a9}
       \strng{fullhash}{db4f9a22797b9a0847838274960eb05e}
-      \field{sortinit}{L}
-      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We have monitored photometrically the Y0 brown dwarf WISEP J173835.52+273258.9 (W1738) at both near- and mid-infrared wavelengths. This {\~{}}1 Gyr-old 400K dwarf is at a distance of 8pc and has a mass around 5 M{\_}Jupiter. We observed W1738 using two near-infrared filters at lambda{\~{}}1um, Y and J, on Gemini observatory, and two mid-infrared filters at lambda{\~{}}4um, [3.6] and [4.5], on the Spitzer observatory. Twenty-four hours were spent on the source by Spitzer on each of June 30 and October 30 2013 UT. Between these observations, around 5 hours were spent on the source by Gemini on each of July 17 and August 23 2013 UT. The mid-infrared light curves show significant evolution between the two observations separated by four months. We find that a double sinusoid can be fit to the [4.5] data, where one sinusoid has a period of 6.0 +/- 0.1 hours and the other a period of 3.0 +/- 0.1 hours. The near-infrared observations suggest variability with a {\~{}}3.0 hour period, although only at a {<}{\~{}}2 sigma confidence level. We interpret our results as showing that the Y dwarf has a 6.0 +/- 0.1 hour rotation period, with one or more large-scale surface features being the source of variability. The peak-to-peak amplitude of the light curve at [4.5] is 3{\%}. The amplitude of the near-infrared variability, if real, may be as high as 5 to 30{\%}. Intriguingly, this size of variability and the wavelength dependence can be reproduced by atmospheric models that include patchy KCl and Na{\_}2S clouds and associated small changes in surface temperature. The small number of large features, and the timescale for evolution of the features, is very similar to what is seen in the atmospheres of the solar system gas giants.}
@@ -223,14 +322,14 @@
       }
       \strng{namehash}{a29a611a02f2c76d3d1ef3616a7bd4a9}
       \strng{fullhash}{0bed489928ae7b0f78d3480b2db53150}
-      \field{sortinit}{L}
-      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0004-637X}
       \field{journaltitle}{The Astrophysical Journal}
       \field{number}{2}
-      \field{title}{{the Physical Properties of Four \x{fffd}\x{fffd}\x{fffd}600 K T Dwarfs}}
+      \field{title}{{the Physical Properties of Four $\sim 600$ K T Dwarfs}}
       \field{volume}{695}
       \field{year}{2009}
       \field{pages}{1517\bibrangedash 1526}
@@ -306,8 +405,8 @@
       }
       \strng{namehash}{b7a7bcfc5930efcd3bbdade1e79b4932}
       \strng{fullhash}{67b2501eb60f893a006e1c9dd50910ab}
-      \field{sortinit}{R}
-      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We have conducted a near-infrared (NIR) proper motion survey, the Sondage Infrarouge de Mouvement Propre (SIMP), in order to discover field ultracool dwarfs (UCD) in the solar neighborhood. The survey was conducted by imaging {\$}\backslashsim28\backslash{\%}{\$} of the sky with the Camera PAnoramique Proche-InfraRouge (CPAPIR) both in the southern hemisphere at the Cerro Tololo Inter-American Observatory (CTIO) 1.5-m telescope, and in the northern hemisphere at the Observatoire du Mont-M$\backslash$'egantic (OMM) 1.6-m telescope and comparing the source positions from these observations with the Two Micron All-Sky Survey Point Source Catalog (2MASS PSC). Additional color criteria were used to further discriminate unwanted astrophysical sources. We present the results of a NIR spectroscopic follow-up of 169 M, L and T dwarfs. Among the sources discovered are two young field brown dwarfs, six unusually red M and L dwarfs, twenty-five unusually blue M and L dwarfs, two candidate unresolved L+T binaries and twenty-four peculiar UCDs. Additionally, we add eighteen L/T transition dwarfs (L6-T4.5) to the already known objects.}
@@ -328,67 +427,51 @@
       \verb http://arxiv.org/abs/1607.06117
       \endverb
     \endentry
-    \entry{Tinney2014}{article}{}
-      \name{author}{6}{}{%
-        {{hash=c94dd3348432af2e7543ed87c5b9a21b}{%
-           family={Tinney},
-           family_i={T\bibinitperiod},
-           given={C\bibnamedelima G},
-           given_i={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=81bef1fc18f5d8538c5b04273a638af3}{%
-           family={Faherty},
-           family_i={F\bibinitperiod},
-           given={Jacqueline\bibnamedelima K},
-           given_i={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=618120df67c8486caf38ee03a395fa75}{%
-           family={Kirkpatrick},
-           family_i={K\bibinitperiod},
-           given={J\bibnamedelima Davy},
-           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=8a14189060998c88aff327ffdeacb599}{%
-           family={Cushing},
-           family_i={C\bibinitperiod},
-           given={Mike},
-           given_i={M\bibinitperiod}}}%
-        {{hash=5fe8dd44365517e9db1305e0369235ae}{%
-           family={Morley},
-           family_i={M\bibinitperiod},
-           given={Caroline\bibnamedelima V},
-           given_i={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=c50eb4d2a8eeb8d447b557419e3da45a}{%
-           family={Wright},
-           family_i={W\bibinitperiod},
-           given={Edward\bibnamedelima L},
-           given_i={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+    \entry{greiciust2017}{url}{}
+      \name{author}{1}{}{%
+        {{hash=fd7550d81667cd79829eedab945fd22a}{%
+           family={Greicius},
+           family_i={G\bibinitperiod},
+           given={T},
+           given_i={T\bibinitperiod}}}%
       }
-      \strng{namehash}{2eba4bfdd24c25551ea87c4ec8dcbaaf}
-      \strng{fullhash}{1c054a7daeb2f09708b671ca55cc05c5}
-      \field{sortinit}{T}
-      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \strng{namehash}{fd7550d81667cd79829eedab945fd22a}
+      \strng{fullhash}{fd7550d81667cd79829eedab945fd22a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{month}{03}
+      \field{year}{2017}
+    \endentry
+    \entry{DM2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=518aaf6ee728961e3133c0fbd0704618}{%
+           family={{Garrett}},
+           family_i={G\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=6b5f07eb6c3d44e9eb12d623f71e6e27}{%
+           family={{Duda}},
+           family_i={D\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{19c77e8cc00a4981de748d22667aea58}
+      \strng{fullhash}{19c77e8cc00a4981de748d22667aea58}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{issn}{1538-4357}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{number}{1}
-      \field{title}{{the Luminosities of the Coldest Brown Dwarfs}}
-      \field{volume}{796}
-      \field{year}{2014}
-      \field{pages}{39}
+      \field{journaltitle}{Advances in Astronomy}
+      \field{month}{12}
+      \field{title}{{Dark Matter: A Primer}}
+      \field{year}{2011}
+      \field{pages}{22}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1088/0004-637X/796/1/39
+      \verb 10.1155/2011/968283
       \endverb
-      \verb{eprint}
-      \verb arXiv:1410.0746v1
-      \endverb
-      \verb{file}
-      \verb :home/franky/Desktop/Link to Term 2/Extragalactic/Assessed/Observing Proposal/Related Papers/1410.0746.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://stacks.iop.org/0004-637X/796/i=1/a=39?key=crossref.bfa51b71ced38179214778aad7db3847
-      \endverb
-      \keyw{brown dwarfs,color figures,distances,online-only material,parallaxes,planetary systems,stars}
+      \keyw{planets: formation,protoplanetary disks,stars: formation,evolution,stars: late-type (M dwarfs,red giants)}
     \endentry
   \endsortlist
 \endrefsection
