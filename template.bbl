@@ -246,6 +246,88 @@
       \endverb
       \keyw{005206,011401,113005,2,2448279,2mass j09393548,3,45,7,77,82,atmospheres,brown dwarfs,cfbd j005910,individual,low-mass,stars,ulas j003402,ulas j133553}
     \endentry
+    \entry{Robert2016}{article}{}
+      \name{author}{11}{}{%
+        {{hash=53b5ff274cc78d961d34edfdd589a789}{%
+           family={Robert},
+           family_i={R\bibinitperiod},
+           given={Jasmin},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f3c255454dc8746731a9f639d546ed74}{%
+           family={Gagn\'{e}},
+           family_i={G\bibinitperiod},
+           given={Jonathan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=9f5894f253a187ca963003ebf3757413}{%
+           family={Artigau},
+           family_i={A\bibinitperiod},
+           given={\'{E}tienne},
+           given_i={\'{E}\bibinitperiod}}}%
+        {{hash=3bab1878972ce5684381f0c534960034}{%
+           family={Lafreni\`{e}re},
+           family_i={L\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=1128d9f65287394772d036d1a5b5a268}{%
+           family={Nadeau},
+           family_i={N\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=22ecf0a0aa80d76db6eeb921fbd34a37}{%
+           family={Doyon},
+           family_i={D\bibinitperiod},
+           given={Ren\'{e}},
+           given_i={R\bibinitperiod}}}%
+        {{hash=728023f1250f8a347696046f97a28b58}{%
+           family={Malo},
+           family_i={M\bibinitperiod},
+           given={Lison},
+           given_i={L\bibinitperiod}}}%
+        {{hash=73ff987dbde2af2038ff3385016eeb74}{%
+           family={Albert},
+           family_i={A\bibinitperiod},
+           given={Lo\"\i{}c},
+           given_i={L\bibinitperiod}}}%
+        {{hash=7174caa7109ece09700473ba5bac4a8b}{%
+           family={Simard},
+           family_i={S\bibinitperiod},
+           given={Corinne},
+           given_i={C\bibinitperiod}}}%
+        {{hash=703d6564398abbd181e6f6bcc3650789}{%
+           family={Gagliuffi},
+           family_i={G\bibinitperiod},
+           given={Daniella\bibnamedelimb C.\bibnamedelimi Bardalez},
+           given_i={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ec187935138dd49b42f76ad8d5bc9d45}{%
+           family={Burgasser},
+           family_i={B\bibinitperiod},
+           given={Adam\bibnamedelima J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7a7bcfc5930efcd3bbdade1e79b4932}
+      \strng{fullhash}{67b2501eb60f893a006e1c9dd50910ab}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have conducted a near-infrared (NIR) proper motion survey, the Sondage Infrarouge de Mouvement Propre (SIMP), in order to discover field ultracool dwarfs (UCD) in the solar neighborhood. The survey was conducted by imaging {\$}\backslashsim28\backslash{\%}{\$} of the sky with the Camera PAnoramique Proche-InfraRouge (CPAPIR) both in the southern hemisphere at the Cerro Tololo Inter-American Observatory (CTIO) 1.5-m telescope, and in the northern hemisphere at the Observatoire du Mont-M$\backslash$'egantic (OMM) 1.6-m telescope and comparing the source positions from these observations with the Two Micron All-Sky Survey Point Source Catalog (2MASS PSC). Additional color criteria were used to further discriminate unwanted astrophysical sources. We present the results of a NIR spectroscopic follow-up of 169 M, L and T dwarfs. Among the sources discovered are two young field brown dwarfs, six unusually red M and L dwarfs, twenty-five unusually blue M and L dwarfs, two candidate unresolved L+T binaries and twenty-four peculiar UCDs. Additionally, we add eighteen L/T transition dwarfs (L6-T4.5) to the already known objects.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{15384357}
+      \field{title}{{A Brown Dwarf Census from the SIMP Survey}}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.3847/0004-637X/830/2/144
+      \endverb
+      \verb{eprint}
+      \verb 1607.06117
+      \endverb
+      \verb{file}
+      \verb :media/franky/Windows8/Users/Joshua/Documents/Term 2/Extragalactic/Assessed/Observing Proposal/Related Papers/1607.06117.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1607.06117
+      \endverb
+    \endentry
     \entry{Tinney2014}{article}{}
       \name{author}{6}{}{%
         {{hash=c94dd3348432af2e7543ed87c5b9a21b}{%
