@@ -345,6 +345,36 @@
       \endverb
       \keyw{005206,011401,113005,2,2448279,2mass j09393548,3,45,7,77,82,atmospheres,brown dwarfs,cfbd j005910,individual,low-mass,stars,ulas j003402,ulas j133553}
     \endentry
+    \entry{DM2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=518aaf6ee728961e3133c0fbd0704618}{%
+           family={{Garrett}},
+           family_i={G\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=6b5f07eb6c3d44e9eb12d623f71e6e27}{%
+           family={{Duda}},
+           family_i={D\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{19c77e8cc00a4981de748d22667aea58}
+      \strng{fullhash}{19c77e8cc00a4981de748d22667aea58}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Astronomy}
+      \field{month}{12}
+      \field{title}{{Dark Matter: A Primer}}
+      \field{year}{2011}
+      \field{pages}{22}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2011/968283
+      \endverb
+      \keyw{planets: formation,protoplanetary disks,stars: formation,evolution,stars: late-type (M dwarfs,red giants)}
+    \endentry
     \entry{Robert2016}{article}{}
       \name{author}{11}{}{%
         {{hash=53b5ff274cc78d961d34edfdd589a789}{%
@@ -442,36 +472,6 @@
       \field{labelnamesource}{author}
       \field{month}{03}
       \field{year}{2017}
-    \endentry
-    \entry{DM2011}{article}{}
-      \name{author}{2}{}{%
-        {{hash=518aaf6ee728961e3133c0fbd0704618}{%
-           family={{Garrett}},
-           family_i={G\bibinitperiod},
-           given={K.},
-           given_i={K\bibinitperiod}}}%
-        {{hash=6b5f07eb6c3d44e9eb12d623f71e6e27}{%
-           family={{Duda}},
-           family_i={D\bibinitperiod},
-           given={G.},
-           given_i={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{19c77e8cc00a4981de748d22667aea58}
-      \strng{fullhash}{19c77e8cc00a4981de748d22667aea58}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Advances in Astronomy}
-      \field{month}{12}
-      \field{title}{{Dark Matter: A Primer}}
-      \field{year}{2011}
-      \field{pages}{22}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1155/2011/968283
-      \endverb
-      \keyw{planets: formation,protoplanetary disks,stars: formation,evolution,stars: late-type (M dwarfs,red giants)}
     \endentry
   \endsortlist
 \endrefsection

@@ -1,0 +1,18 @@
+[1] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'FINISHED_template.blg'
+[105] biber:287> INFO - === Wed Apr 19, 2017, 11:22:54
+[246] Biber.pm:348> INFO - Reading 'FINISHED_template.bcf'
+[453] Biber.pm:742> INFO - Found 8 citekeys in bib section 0
+[513] Biber.pm:3151> INFO - Processing section 0
+[676] Biber.pm:3308> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[731] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[779] bibtex.pm:974> INFO - Found BibTeX data source 'bib.bib'
+[1097] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1098] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1098] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[1099] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1123] bbl.pm:519> INFO - Writing 'FINISHED_template.bbl' with encoding 'ascii'
+[1304] Utils.pm:147> WARN - The entry 'Leggett2009' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1366] Utils.pm:147> WARN - The entry 'Robert2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1392] bbl.pm:615> INFO - Output to FINISHED_template.bbl
+[1393] Biber.pm:109> INFO - WARNINGS: 2

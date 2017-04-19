@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.17)  19 APR 2017 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.17)  19 APR 2017 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**template.tex
-(./template.tex
+**FINISHED_template.tex
+(./FINISHED_template.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -679,8 +679,8 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 \@quotelevel=\count320
 \@quotereset=\count321
 
-(./template.aux)
-\openout1 = `template.aux'.
+(./FINISHED_template.aux)
+\openout1 = `FINISHED_template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -754,17 +754,18 @@ Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ascii'.
-\openout3 = `template.bcf'.
+\openout3 = `FINISHED_template.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'template.bbl' found.
+Package biblatex Info: ... file 'FINISHED_template.bbl' found.
 
-(./template.bbl)
+(./FINISHED_template.bbl)
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 \c__siunitx_mathsf_int=\count328
 LaTeX Font Info:    Try loading font information for U+msa on input line 11.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 11.
@@ -802,48 +803,37 @@ Overfull \hbox (2.43335pt too wide) in paragraph at lines 40--41
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Sussex.png> <./STSci.png
 >]
 Missing character: There is no é in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
  [2
 
 ]
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 62.
+(biblatex)                Using fallback driver on input line 54.
 
 [3
 
 ]
 Missing character: There is no Õ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--72
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 
  []
 
 [4
 
-] [5] (./template.aux)
-Package logreq Info: Writing requests to 'template.run.xml'.
-\openout1 = `template.run.xml'.
+] [5] (./FINISHED_template.aux)
+Package logreq Info: Writing requests to 'FINISHED_template.run.xml'.
+\openout1 = `FINISHED_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17275 strings out of 493029
- 345242 string characters out of 6136234
- 685697 words of memory out of 5000000
- 20661 multiletter control sequences out of 15000+600000
+ 17259 strings out of 493029
+ 345072 string characters out of 6136234
+ 685715 words of memory out of 5000000
+ 20647 multiletter control sequences out of 15000+600000
  13994 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,16n,45p,10408b,986s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,16n,45p,10417b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -860,7 +850,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm1095.pfb>
-Output written on template.pdf (5 pages, 206200 bytes).
+Output written on FINISHED_template.pdf (5 pages, 205314 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
